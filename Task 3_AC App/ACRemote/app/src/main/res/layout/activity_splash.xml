@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+
+    <!--<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:layout_weight="1">
+
+        <ImageView android:id="@+id/splashscreen"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/splash"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>-->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:layout_weight="1">
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:layout_marginTop="50dp"
+            android:layout_centerInParent="true"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-thin"
+            android:text="Welcome"/>
+
+
+    </RelativeLayout>
+
+
+
+
+    <!--android:fontFamily="sans-serif"           // roboto regular
+android:fontFamily="sans-serif-light"     // roboto light
+android:fontFamily="sans-serif-condensed" // roboto condensed
+android:fontFamily="sans-serif-black"     // roboto black
+android:fontFamily="sans-serif-thin"      // roboto thin (android 4.2)
+android:fontFamily="sans-serif-medium"    // roboto medium (android 5.0)-->
+
+</LinearLayout>
